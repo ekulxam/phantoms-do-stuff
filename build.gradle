@@ -16,9 +16,13 @@ repositories {
 	// Loom adds the essential maven repositories to download Minecraft and libraries from automatically.
 	// See https://docs.gradle.org/current/userguide/declaring_repositories.html
 	// for more information about repositories.
-	repositories {
-		mavenCentral()
-		maven { url 'https://jitpack.io' }
+	mavenCentral()
+	maven {
+		url "https://jitpack.io"
+	}
+	maven {
+		name "modrinth"
+		url "https://api.modrinth.com/maven"
 	}
 }
 
@@ -37,6 +41,9 @@ dependencies {
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 	// include (modImplementation "com.github.ArkoSammy12:sensible-sleepiness:v0.0.1-release")
+	include modImplementation ("maven.modrinth:leave-my-bars-alone:${project.better_bars_version}")
+	include modImplementation ("maven.modrinth:forge-config-api-port:${project.forge_config_verison}")
+	include modImplementation ("maven.modrinth:puzzles-lib:${project.puzzles_lib_verison}")
 }
 
 processResources {

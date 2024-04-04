@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "survivalblock.phantoms_do_stuff.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "EntityMixin",
+    "MobEntityMixin",
+    "PhantomEntityMixin",
+    "PhantomEntityMixin$PhantomMoveControlMixin",
+    "PhantomEntityMixin$SwoopMovementGoalMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}
