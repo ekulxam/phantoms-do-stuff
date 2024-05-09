@@ -24,12 +24,19 @@ repositories {
 		name "modrinth"
 		url "https://api.modrinth.com/maven"
 	}
+	maven {
+		url "https://maven.terraformersmc.com"
+	}
 }
 
 configurations.configureEach {
 	resolutionStrategy {
 		force("net.fabricmc:fabric-loader:${project.loader_version}")
 	}
+}
+
+loom {
+	accessWidenerPath = file("src/main/resources/phantoms_do_stuff.accesswidener")
 }
 
 dependencies {
@@ -44,6 +51,8 @@ dependencies {
 	include modImplementation ("maven.modrinth:leave-my-bars-alone:${project.better_bars_version}")
 	include modImplementation ("maven.modrinth:forge-config-api-port:${project.forge_config_verison}")
 	include modImplementation ("maven.modrinth:puzzles-lib:${project.puzzles_lib_verison}")
+	include modImplementation("maven.modrinth:midnightlib:${project.midnightlib_version}")
+	modRuntimeOnly "com.terraformersmc:modmenu:${mod_menu_version}"
 }
 
 processResources {

@@ -3,9 +3,9 @@
 	"id": "phantoms_do_stuff",
 	"version": "${version}",
 	"name": "phantoms_do_stuff",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Assorted Mob Mod",
 	"authors": [
-		"Me!"
+		"Survivalblock"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -16,12 +16,16 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-          "survivalblock.phantoms_do_stuff.PhantomsDoStuff"
+          "survivalblock.phantoms_do_stuff.common.PhantomsDoStuff"
+		],
+		"client": [
+			"survivalblock.phantoms_do_stuff.client.PhantomsDoStuffClient"
 		]
 	},
 	"mixins": [
 		"phantoms_do_stuff.mixins.json"
 	],
+	"accessWidener": "phantoms_do_stuff.accesswidener",
 	"depends": {
 		"fabricloader": ">=0.15.9",
 		"minecraft": "~1.20",

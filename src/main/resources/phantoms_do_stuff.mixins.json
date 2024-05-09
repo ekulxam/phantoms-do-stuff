@@ -3,11 +3,22 @@
   "package": "survivalblock.phantoms_do_stuff.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "EntityMixin",
-    "MobEntityMixin",
-    "PhantomEntityMixin",
-    "PhantomEntityMixin$PhantomMoveControlMixin",
-    "PhantomEntityMixin$SwoopMovementGoalMixin"
+    "frogs.FrogEntityMixin",
+    "frogs.MobEntityMixin",
+    "giants.GiantEntityMixin",
+    "giants.LivingEntityMixin",
+    "giants.MobEntityMixin",
+    "giants.ZombieEntityAccessor",
+    "goat.GoatEntityMixin",
+    "goat.RamImpactTaskMixin",
+    "phantoms.EntityMixin",
+    "phantoms.LivingEntityMixin",
+    "phantoms.MobEntityMixin",
+    "phantoms.PhantomEntityMixin",
+    "phantoms.PhantomEntityMixin$FindTargetGoalMixin",
+    "phantoms.PhantomEntityMixin$PhantomMoveControlMixin",
+    "phantoms.PhantomEntityMixin$SwoopMovementGoalMixin",
+    "phantoms.PlayerEntityMixin"
   ],
   "injectors": {
     "defaultRequire": 1

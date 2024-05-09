@@ -1,0 +1,22 @@
+{
+  "phantoms_do_stuff.midnightconfig.title": "Phantoms Do Stuff Config",
+  "phantoms_do_stuff.midnightconfig.phantomsTargetEverything": "Phantoms Target Everything",
+  "phantoms_do_stuff.midnightconfig.phantomsDropPassengers": "Phantoms Drop Their Passengers",
+  "phantoms_do_stuff.midnightconfig.slightlyFasterPhantoms": "Slightly Faster Phantoms (inverse size scale)",
+  "phantoms_do_stuff.midnightconfig.phantomHealthScalesWithSize": "Phantom Health Scales With Size",
+  "phantoms_do_stuff.midnightconfig.phantomsTryStopDismount": "Phantoms Try To Stop Passengers Dismounting",
+  "phantoms_do_stuff.midnightconfig.phantomsIgnoreArmor": "Phantoms Ignore Armor",
+  "phantoms_do_stuff.midnightconfig.phantomsGrowAndHeal": "Phantoms Gain Size And Heal Themselves When Attacking",
+  "phantoms_do_stuff.midnightconfig.phantomsTransferFire": "Burning Phantoms Transfer Fire",
+  "phantoms_do_stuff.midnightconfig.phantomsPhaseThroughWalls": "Phantoms Phase Through Walls Like Vexes",
+  "phantoms_do_stuff.midnightconfig.bigPhantomsBlockProjectiles": "Big Phantoms Are Immune To Projectiles",
+  "phantoms_do_stuff.midnightconfig.bigPhantomsResistKnockback": "Phantoms Gain Knockback Resistance Which Scales With Size",
+  "phantoms_do_stuff.midnightconfig.noCancellingPhantomAttacks": "Phantoms Will Always Swoop To Kill, Even If They Take Damage",
+  "phantoms_do_stuff.midnightconfig.duplicatingPhantoms": "Phantoms Spawn A Smaller Copy Of Themselves Upon Hit",
+  "phantoms_do_stuff.midnightconfig.frogsEatEverything": "Frogs Eat Everything",
+  "phantoms_do_stuff.midnightconfig.frogsInstakillEntities": "Frogs Instakill Entities",
+  "phantoms_do_stuff.midnightconfig.returnGiantAI": "Brings Back Giant AI From Various Snapshots",
+  "phantoms_do_stuff.midnightconfig.giantsBurnInDaylight": "Giants Burn In Daylight Like Most Undead",
+  "phantoms_do_stuff.midnightconfig.buffGiantAttributes": "Buff Giant Attributes",
+  "phantoms_do_stuff.multiplayer.configdesync": "Your config was different from the server's!"
+}

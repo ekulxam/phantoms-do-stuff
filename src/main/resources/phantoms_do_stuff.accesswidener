@@ -1,0 +1,3 @@
+accessWidener v2 named
+transitive-accessible class net/minecraft/entity/mob/ZombieEntity$DestroyEggGoal
+transitive-accessible method net/minecraft/entity/mob/ZombieEntity$DestroyEggGoal <init> (Lnet/minecraft/entity/mob/ZombieEntity;Lnet/minecraft/entity/mob/PathAwareEntity;DI)V
